@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown</title>
-    <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multiple Dropdown Menus</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="dropdown">
+    <button class="dropdown-button" aria-haspopup="true" aria-expanded="false">
+      Dropdown 1
+    </button>
+    <ul class="dropdown-menu" hidden>
+      <li><a href="#option1">Option 1</a></li>
+      <li><a href="#option2">Option 2</a></li>
+      <li><a href="#option3">Option 3</a></li>
+    </ul>
+  </div>
 
-
-
-    <script src="dropdown.js"></script>
+  <div class="dropdown">
+    <button class="dropdown-button" aria-haspopup="true" aria-expanded="false">
+      Dropdown 2
+    </button>
+    <ul class="dropdown-menu" hidden>
+      <li><a href="#option4">Option 4</a></li>
+      <li><a href="#option5">Option 5</a></li>
+      <li><a href="#option6">Option 6</a></li>
+    </ul>
+  </div>
+  <script src="dropdown.js"></script>
 </body>
 </html>
